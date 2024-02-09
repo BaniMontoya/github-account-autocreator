@@ -2,14 +2,14 @@
 
 from selenium import webdriver
 import time
-import random
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 import re
+import secrets
 
 
-ran = random.randrange(0, 20, 5)
-ran2 = random.randrange(0, 50, 5)
+ran = secrets.SystemRandom().randrange(0, 20, 5)
+ran2 = secrets.SystemRandom().randrange(0, 50, 5)
 
 numero = []
 numero.append("21")
